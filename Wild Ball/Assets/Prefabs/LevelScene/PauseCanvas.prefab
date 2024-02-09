@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4309138673778651078}
   - component: {fileID: 4309138673778651079}
   - component: {fileID: 4309138673778651080}
-  - component: {fileID: 6302114233804764851}
   m_Layer: 5
   m_Name: MainMenuButton
   m_TagString: Untagged
@@ -123,7 +122,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6302114233804764851}
+      - m_Target: {fileID: 682705041}
         m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
         m_MethodName: OpenScene
         m_Mode: 3
@@ -135,18 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6302114233804764851
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4309138673778651082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c58d3d1784522428d1040538df2697, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4309138673859298002
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +255,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4309138673859297999}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 682705041}
+        m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
+        m_MethodName: RestartScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4309138674597537022
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +537,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 682705041}
+        m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
+        m_MethodName: Pause
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4309138674817648742
 GameObject:
   m_ObjectHideFlags: 0
@@ -685,8 +696,9 @@ GameObject:
   - component: {fileID: 4309138675050287969}
   - component: {fileID: 4309138675050287970}
   - component: {fileID: 4309138675050287971}
+  - component: {fileID: 682705041}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PauseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -777,6 +789,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &682705041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4309138675050287972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c58d3d1784522428d1040538df2697, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4309138675222625084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1276,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 682705041}
+        m_TargetAssemblyTypeName: LvlSelection, Assembly-CSharp
+        m_MethodName: Pause
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
