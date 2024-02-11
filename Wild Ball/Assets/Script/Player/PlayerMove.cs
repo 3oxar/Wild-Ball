@@ -10,13 +10,17 @@ public class PlayerMove : MonoBehaviour
     private Vector3 endPoint;
 
     private float horizontal, vertical;
+    [SerializeField, Range (1, 5)] float speed = 1f;
+
+    public static bool changeCamera = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        endPoint.y = transform.position.y;
+        endPoint = transform.position;
         playerRigidbody = player.GetComponent<Rigidbody>();
         playerRigidbody.sleepThreshold = 100;
+        changeCamera = false;
     }
 
     // Update is called once per frame
@@ -24,15 +28,24 @@ public class PlayerMove : MonoBehaviour
     {
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
+    }
 
-        if (horizontal > 0 || horizontal < 0) 
+    private void FixedUpdate()
+    {
+        if (horizontal > 0 || horizontal < 0)
         {
-            endPoint.x = player.transform.position.x + horizontal;
+            if (!changeCamera) 
+                endPoint.x = player.transform.position.x + horizontal;
+            else
+                endPoint.z = player.transform.position.z - horizontal;
             MovePlayer();
         }
-        else if (vertical > 0 || vertical < 0) 
+        else if (vertical > 0 || vertical < 0)
         {
-            endPoint.z = player.transform.position.z + vertical;
+            if(!changeCamera)
+                endPoint.z = player.transform.position.z + vertical;
+            else
+                endPoint.x = player.transform.position.x + vertical;
             MovePlayer();
         }
     }
@@ -40,6 +53,6 @@ public class PlayerMove : MonoBehaviour
     /// <summary>
     /// Делаем плавное перемещение объекта 
     /// </summary>
-    private void MovePlayer() => player.transform.position = Vector3.Lerp(player.transform.position, endPoint, 1f * Time.deltaTime);
+    private void MovePlayer() => player.transform.position = Vector3.Lerp(player.transform.position, endPoint, speed * Time.deltaTime);
 
 }

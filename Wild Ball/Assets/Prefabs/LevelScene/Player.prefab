@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4692518289123542747}
   - component: {fileID: 4692518289123542748}
   - component: {fileID: 4692518289123542751}
+  - component: {fileID: 1220844026}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Player
@@ -127,8 +128,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6433a5e41afe3e84d92e0676f630a376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endGameCanvas: {fileID: 5144263974331165907, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
-  pauseCanvas: {fileID: 4309138675050287969, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
+  endGameCanvas: {fileID: 0}
+  pauseCanvas: {fileID: 0}
+--- !u!114 &1220844026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4692518289123542742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06ccfb4740a783f41999ffd5f1778ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 0}
+  playerCanvas: {fileID: 0}
 --- !u!1 &4692518289739230418
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,3 +190,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4692518289123542742}
+  speed: 1.5
