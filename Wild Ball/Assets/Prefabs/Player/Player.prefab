@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6433a5e41afe3e84d92e0676f630a376, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endGameCanvas: {fileID: 0}
-  pauseCanvas: {fileID: 0}
+  endGameCanvas: {fileID: 5144263974331165907, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
+  MenuCanvas: {fileID: 4309138675050287969, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
 --- !u!114 &1220844026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 0}
-  playerCanvas: {fileID: 0}
+  playerCanvas: {fileID: 4581914825048239460, guid: 2075cdc94f219d5468694a904e03d95a, type: 3}
 --- !u!1 &4692518289739230418
 GameObject:
   m_ObjectHideFlags: 0
