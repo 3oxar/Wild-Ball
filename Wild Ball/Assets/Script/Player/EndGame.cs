@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class EndGame : MonoBehaviour
 {
     [SerializeField] private Canvas endGameCanvas;
-    [SerializeField] private Canvas pauseCanvas;
+    [SerializeField] private Canvas MenuCanvas;
 
     private LvlSelection lvlSelection;
 
@@ -18,7 +18,7 @@ public class EndGame : MonoBehaviour
         if (other.CompareTag("Obstacle"))
         {
             lvlSelection.Pause(0);
-            pauseCanvas.gameObject.SetActive(false);
+            MenuCanvas.gameObject.SetActive(false);
             endGameCanvas.gameObject.SetActive(true);
         }
 

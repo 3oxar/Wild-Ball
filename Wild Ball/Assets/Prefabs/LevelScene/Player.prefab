@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06ccfb4740a783f41999ffd5f1778ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimator: {fileID: 0}
+  door: {fileID: 0}
   playerCanvas: {fileID: 0}
 --- !u!1 &4692518289739230418
 GameObject:
@@ -190,4 +190,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 4692518289123542742}
-  speed: 1.5
+  speed: 3

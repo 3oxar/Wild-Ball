@@ -2,15 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    [SerializeField] private Animator doorAnimator;
+    [SerializeField] private GameObject door;
     [SerializeField] private Canvas playerCanvas;
+
+    private Animator doorAnimator;
+    private Animation doorButtonAnimation;
+
+    private GameObject doorOpenButtonText;
 
     private bool blocked = true;
     private bool openOrClose = false;
     private bool stateDoor = false;//false - закрыто, true - открыта 
+
+    private void Awake()
+    {
+        if(door != null) 
+            doorAnimator = door.transform.GetChild(0).gameObject.transform.GetChild(0).GetComponent<Animator>();
+        if (door != null)
+            doorButtonAnimation = door.transform.GetChild(1).gameObject.transform.GetChild(0).GetComponent<Animation>();
+
+        doorOpenButtonText = playerCanvas.transform.Find("DoorOpenButtonText(TMP)").gameObject;
+    }
 
     private void Update()
     {
@@ -20,7 +36,7 @@ public class PlayerInteraction : MonoBehaviour
             {
                 doorAnimator.Play("DoorOpen");
                 stateDoor = true;
-                playerCanvas.transform.Find("DoorOpenButtonText(TMP)").gameObject.SetActive(false);
+                doorOpenButtonText.SetActive(false);
             }
         }
 
@@ -32,14 +48,14 @@ public class PlayerInteraction : MonoBehaviour
         {
             blocked = false;
 
-            other.transform.GetChild(0).gameObject.GetComponent<Animation>().Play();
+            doorButtonAnimation.Play();
             Destroy(other.GetComponent<Collider>());//убираем колайдер что бы нре проигрывать анимацию снова
         }
 
         if (other.CompareTag("Door") && !blocked)
         {
             openOrClose = true;
-            playerCanvas.transform.Find("DoorOpenButtonText(TMP)").gameObject.SetActive(true);
+          doorOpenButtonText.SetActive(true);
         }
             
     }
