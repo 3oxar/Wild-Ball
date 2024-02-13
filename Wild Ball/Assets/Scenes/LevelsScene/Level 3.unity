@@ -506,6 +506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4309138675050287972, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4309138675222625082, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
       propertyPath: m_text
       value: 3

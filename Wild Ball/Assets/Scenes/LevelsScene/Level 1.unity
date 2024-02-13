@@ -1188,6 +1188,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4309138675050287972, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
 --- !u!223 &4309138674657110368 stripped
@@ -1228,7 +1232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4692518289739230420, guid: 3078e87e9cee631409c110f3fb5e115d, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4692518289739230421, guid: 3078e87e9cee631409c110f3fb5e115d, type: 3}
       propertyPath: m_RootOrder
@@ -1520,7 +1524,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6869088655636202901, guid: 5d8957972d685c84cad1fd059786a421, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.131
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 6869088655636202901, guid: 5d8957972d685c84cad1fd059786a421, type: 3}
       propertyPath: m_LocalPosition.z
