@@ -8,6 +8,10 @@ public class PlayerInteraction : MonoBehaviour
 {
     [SerializeField] private GameObject door;
     [SerializeField] private Canvas playerCanvas;
+    [SerializeField] private Camera[] cameras;
+    [SerializeField] private Button[] camerasButton;
+    [SerializeField] private Camera separateCamera;
+    [SerializeField] private GameObject passageBlocked;
 
     private Animator doorAnimator;
     private Animation doorButtonAnimation;
@@ -17,6 +21,7 @@ public class PlayerInteraction : MonoBehaviour
     private bool blocked = true;
     private bool openOrClose = false;
     private bool stateDoor = false;//false - закрыто, true - открыта 
+    private bool separateCameraCheck = false;
 
     private void Awake()
     {
@@ -55,7 +60,7 @@ public class PlayerInteraction : MonoBehaviour
         if (other.CompareTag("Door") && !blocked)
         {
             openOrClose = true;
-          doorOpenButtonText.SetActive(true);
+            doorOpenButtonText.SetActive(true);
         }
             
     }
@@ -72,7 +77,20 @@ public class PlayerInteraction : MonoBehaviour
         {
             doorAnimator.Play("DoorClose");
             stateDoor = false;
-           
         }
+
+        if (other.CompareTag("Untagged") && !separateCameraCheck)
+        {
+            foreach (var cam in cameras) cam.gameObject.SetActive(false);
+            foreach (var camButton in camerasButton) camButton.gameObject.SetActive(false);
+
+            PlayerMove.changeCamera = false;
+
+            separateCamera.gameObject.SetActive(true);
+            passageBlocked.gameObject.SetActive(true);
+        }
+
+        
+
     }
 }
