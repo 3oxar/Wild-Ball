@@ -7,7 +7,12 @@ public class EndGame : MonoBehaviour
     [SerializeField] private Canvas MenuCanvas;
 
     private LvlSelection lvlSelection;
-    
+
+    private void Awake()
+    {
+        lvlSelection = new LvlSelection();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Finish")) lvlSelection.NextLvl();
@@ -15,7 +20,7 @@ public class EndGame : MonoBehaviour
 
     public void EndGames()
     {
-        lvlSelection = new LvlSelection();
+       
         lvlSelection.Pause(0);
         endGameCanvas.gameObject.SetActive(true);
     }

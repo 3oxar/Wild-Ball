@@ -1,0 +1,468 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.34f1 (25266724e7bd) revision 2434663'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 32560 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programing\Unity\2021.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Skillbox/Разработка игр на Unity с нуля/Wild-Ball/Wild Ball
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+60966
+Successfully changed project path to: D:/Skillbox/Разработка игр на Unity с нуля/Wild-Ball/Wild Ball
+D:/Skillbox/Разработка игр на Unity с нуля/Wild-Ball/Wild Ball
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7324] Host "[IP] 192.168.0.120 [Port] 0 [Flags] 2 [Guid] 1245100415 [EditorId] 1245100415 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7324] Host "[IP] 192.168.0.120 [Port] 0 [Flags] 2 [Guid] 1245100415 [EditorId] 1245100415 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 67.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path D:/Programing/Unity/2021.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Skillbox/Разработка игр на Unity с нуля/Wild-Ball/Wild Ball/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12011 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/Programing/Unity/2021.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programing/Unity/2021.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programing/Unity/2021.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programing/Unity/2021.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002320 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 69.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.586 seconds
+Domain Reload Profiling:
+	ReloadAssembly (586ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (104ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.400 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1401ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (763ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3498 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (94.8 KB). Loaded Objects now: 3963.
+Memory consumption went from 130.1 MB to 130.0 MB.
+Total: 2.827300 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.103100 ms MarkObjects: 2.269200 ms  DeleteObjects: 0.164700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11091.716271 seconds.
+  path: Assets/Material/Level/MazeWall.mat
+  artifactKey: Guid(c43ec8bf531523542a4d62ba3a902192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Material/Level/MazeWall.mat using Guid(c43ec8bf531523542a4d62ba3a902192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b142d4d7fa0d3cfb4b9a11e89a23d49c') in 0.110038 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 20.409889 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png
+  artifactKey: Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png using Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d799c71a982cb64f60446566fdc6cb') in 0.037065 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.005578 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3692ba89ee5c0a25b217cab4401a151') in 0.032779 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png
+  artifactKey: Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png using Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59b35f959ddcd121ed1dcb4880a1f0c') in 0.026153 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.292923 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png
+  artifactKey: Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png using Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ad1bd036801c0986c43772a5d48d2c') in 0.017529 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.093081 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbfc2f56c41851228b45a2b00294c0a') in 0.019790 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png
+  artifactKey: Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png using Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784c4ee94604133c19862a9d78797e0') in 0.041334 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.643594 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png
+  artifactKey: Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png using Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8204d7a380993d8f278bc58afb4fb38') in 0.018671 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.073973 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7016d634d0747f94858a2540b0043ae') in 0.013763 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png
+  artifactKey: Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png using Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dc1fd9b093fa120ec094765047d0707') in 0.018540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.216521 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png
+  artifactKey: Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png using Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8bf7fc0366df59f71b2f4d2ed4c90') in 0.019639 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.074233 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9240cd10bd7288b1fbf6f74c66ffd357') in 0.024414 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png
+  artifactKey: Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_220.png using Guid(9e8274c61673b8a458365832576005b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f46998206a5c8e4585376392f6859b8') in 0.041488 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.482575 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png
+  artifactKey: Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_320.png using Guid(ed53cef80c26e89409c8c93941be088c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3539a9c69415c0b3c5a024634b43999') in 0.015213 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.018626 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png
+  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0551f58c5957455e75e80d12afc318e5') in 0.085020 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_130.png
+  artifactKey: Guid(0dcdf5b7debd4ba4492217e4975c965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/buttons/button_round_130.png using Guid(0dcdf5b7debd4ba4492217e4975c965e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a692d6b6f096b9c3d9a6365e8baa83') in 0.041274 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.350614 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/pause.png
+  artifactKey: Guid(39af0f365e48844429e5e9144564e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/pause.png using Guid(39af0f365e48844429e5e9144564e40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932cdacda9cd65aaebc5c46878121da1') in 0.020828 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.017477 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/arrow_down.png
+  artifactKey: Guid(8e23a03b070b02343ae289c317c04cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/arrow_down.png using Guid(8e23a03b070b02343ae289c317c04cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e09ca166a024f1d26a5be1b97e3cfb') in 0.026890 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/plus.png
+  artifactKey: Guid(aeb77d0c2986cd448a51409c56ad0aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/plus.png using Guid(aeb77d0c2986cd448a51409c56ad0aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b0461dcd9b744ad2eb4f620af96bc7') in 0.016485 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/speaker.png
+  artifactKey: Guid(139c4181e893555468a02df6e9fa5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/speaker.png using Guid(139c4181e893555468a02df6e9fa5a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a757a221f0fb9b96dd3cb5b4e6d7fd01') in 0.128477 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/x.png
+  artifactKey: Guid(e839e6693c344ad40a5952853a891866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/x.png using Guid(e839e6693c344ad40a5952853a891866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363519a22d3e2f245ec1cef6c567d7e') in 0.032861 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/minus.png
+  artifactKey: Guid(6d3df38cd65ff494387432fd56427bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/minus.png using Guid(6d3df38cd65ff494387432fd56427bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6ff7f7af199cf3ff7a8a13b4f478f7') in 0.019448 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/settings.png
+  artifactKey: Guid(29cd5fa083a9a4d448c49c770629f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/settings.png using Guid(29cd5fa083a9a4d448c49c770629f19e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc55e8fff6ad1a35fcf4a20ade5bf86') in 0.020901 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/repeat.png
+  artifactKey: Guid(477e16ce3d75d124c8bd76f95fa08730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/repeat.png using Guid(477e16ce3d75d124c8bd76f95fa08730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47977c89ecd2169718e66d384e19f60') in 0.018327 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/share.png
+  artifactKey: Guid(f241ab6632e1cb04698e1686dcdb8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/FreeButtonSet/Textures/icons/256x256/share.png using Guid(f241ab6632e1cb04698e1686dcdb8981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a71943e9c68df3e222e61610aad794') in 0.018843 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.414105 seconds.
+  path: Assets/Prefabs/MainMenuScene
+  artifactKey: Guid(414c8e00ec0cc7c48885ef39f6c8746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene using Guid(414c8e00ec0cc7c48885ef39f6c8746c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee2359bb90bcd31c37345ae690ef69') in 0.006539 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.087299 seconds.
+  path: Assets/Prefabs/MainMenuScene/LevelButton .prefab
+  artifactKey: Guid(d393b471515d509479fd06706ca0e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/LevelButton .prefab using Guid(d393b471515d509479fd06706ca0e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f2e18d4f6caca62d4c6c98a3f0a635') in 0.030658 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.763956 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball
+  artifactKey: Guid(5c4717c2dc554c8409168a84c83c15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball using Guid(5c4717c2dc554c8409168a84c83c15f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acdef7ae207d797f8beb3999dafe16e') in 0.006763 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.599832 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Materials
+  artifactKey: Guid(ca25f5934cb6f5e469a9be3010ef64dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Materials using Guid(ca25f5934cb6f5e469a9be3010ef64dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7055e8524f69a44d3c2d0cb605f9e691') in 0.006562 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.022979 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Meshes
+  artifactKey: Guid(c5d8a6c3714e5f843b93ff540e6ac8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Meshes using Guid(c5d8a6c3714e5f843b93ff540e6ac8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5c8af9a2723628f01934a0ee66763e') in 0.006431 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.749525 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Prefabs
+  artifactKey: Guid(0568f5915658c3f4fa3c842868a406ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Prefabs using Guid(0568f5915658c3f4fa3c842868a406ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1660d40c1ed7fac01b06999f5f9870') in 0.006166 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.545107 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Meshes/Soccer Ball Mesh.fbx
+  artifactKey: Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Meshes/Soccer Ball Mesh.fbx using Guid(58119f7e9f45c2944a0b18dd33378ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b592454dea2cbaa6b1112b92dc6e854') in 0.038481 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.100432 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Textures
+  artifactKey: Guid(6faa3d855cf626b4a9c681d552256f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Textures using Guid(6faa3d855cf626b4a9c681d552256f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c67b402a6fbd10e19226b0d98e37b25') in 0.006477 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.098318 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Textures/Soccer Ball Normal Map.png
+  artifactKey: Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Textures/Soccer Ball Normal Map.png using Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e81243fc87be09f0e037ab535f75baa') in 0.036059 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.974350 seconds.
+  path: Assets/Prefabs/MainMenuScene/Soccer Ball/Textures/Soccer Ball Normal Map.png
+  artifactKey: Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/MainMenuScene/Soccer Ball/Textures/Soccer Ball Normal Map.png using Guid(a0d8751da35d5344ea4738f6a8227a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715a76771ccc6541c95173844784bb16') in 0.012178 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (69.7 KB). Loaded Objects now: 4033.
+Memory consumption went from 61.7 MB to 61.6 MB.
+Total: 3.201100 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.627400 ms  DeleteObjects: 0.103900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

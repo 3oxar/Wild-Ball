@@ -207,6 +207,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3487588280870646610, guid: 91c531c7dec75d54c9617440df71365f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91c531c7dec75d54c9617440df71365f, type: 3}
 --- !u!4 &204142047 stripped
@@ -942,7 +946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5914436472455380179, guid: 955c5bc19cdd21b458037cce5c7be996, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.11
+      value: 0.088
       objectReference: {fileID: 0}
     - target: {fileID: 5914436472455380179, guid: 955c5bc19cdd21b458037cce5c7be996, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1080,6 +1084,10 @@ PrefabInstance:
     - target: {fileID: 5144263974331165908, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_Name
       value: EndGameCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144263974331165908, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}

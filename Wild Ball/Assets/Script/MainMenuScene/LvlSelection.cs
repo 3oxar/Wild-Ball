@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class LvlSelection : MonoBehaviour
 {
+    
     private void Start()
     {
         Pause(1);//при рестарте ставим скорость игры на 1 
@@ -31,5 +32,7 @@ public class LvlSelection : MonoBehaviour
     /// <summary>
     /// Переход на следующий уровень 
     /// </summary>
-    public void NextLvl() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    public void NextLvl()=>  SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+       
+          
 }

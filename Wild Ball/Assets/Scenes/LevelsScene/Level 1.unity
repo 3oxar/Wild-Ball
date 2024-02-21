@@ -1188,10 +1188,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 4309138675050287972, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 542a36358bd8f9e4bb8287b4968ffc9b, type: 3}
 --- !u!223 &4309138674657110368 stripped
@@ -1345,15 +1341,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5144263974331165904, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5144263974331165904, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5144263974331165904, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5144263974331165904, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1378,6 +1374,10 @@ PrefabInstance:
     - target: {fileID: 5144263974331165908, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_Name
       value: EndGameCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5144263974331165908, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7018284489860604224, guid: b54b9178fa183e54686bb56eb872dd49, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
